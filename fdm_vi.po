@@ -12,13 +12,13 @@ msgid "Download with FDM"
 msgstr "Tải xuống với FDM"
 
 msgid "Download selected with FDM"
-msgstr "Tải về lựa chọn với FDM"
+msgstr "Tải về các thứ được chọn với FDM"
 
 msgid "Download video with FDM"
 msgstr "Tải xuống video với FDM"
 
 msgid "Error: 0x%x. Failed to transfer downloads to FDM."
-msgstr "Lỗi: 0x% x. Không thể chuyển tải xuống FDM."
+msgstr "Lỗi: 0x% x. Chuyển tải xuống cho FDM thất bại"
 
 msgid "No flash video found. Try reloading this page."
 msgstr "Không tìm thấy video flash. Thử tải lại trang này."
@@ -26,7 +26,7 @@ msgstr "Không tìm thấy video flash. Thử tải lại trang này."
 #, qt-format
 msgctxt "Download|"
 msgid "Specified folder path is relative, full path is %1"
-msgstr ""
+msgstr "Đường dẫn thư mục được chỉ định là tương đối, đường dẫn tuyệt đối là %1"
 
 #, fuzzy, qt-format
 msgctxt "Download|"
@@ -46,16 +46,16 @@ msgstr "%1 MB"
 #, qt-format
 msgctxt "Download|"
 msgid "Reconnecting in %1 seconds"
-msgstr ""
+msgstr "Kết nối lại trong %1 giây"
 
 #, qt-format
 msgctxt "Download|"
 msgid "Priority set to %1"
-msgstr ""
+msgstr "Mức độ ưu tiên được đặt thành %1"
 
 msgctxt "Download|"
 msgid "Queued: Snail mode is on. Turn it off to continue"
-msgstr ""
+msgstr "Đã xếp hàng: chế độ Ốc Sên đang bật. Tắt đi để tiếp tục"
 
 #, fuzzy
 msgctxt "Download|"
@@ -102,7 +102,7 @@ msgstr "HTTP lỗi %1: %2"
 #, qt-format
 msgctxt "HttpError|"
 msgid "HTTP Error %1"
-msgstr ""
+msgstr "Lỗi HTTP %1"
 
 msgctxt "HttpError|"
 msgid "Unknown error"
@@ -118,11 +118,11 @@ msgstr "Thao tác bị hủy"
 
 msgctxt "HttpError|"
 msgid "Remote server closed connection"
-msgstr "Đóng kết nối máy chủ từ xa"
+msgstr "Máy chủ từ xa đã đóng kết nối"
 
 msgctxt "HttpError|"
 msgid "Connection timed out"
-msgstr "Kết nối đã hết"
+msgstr "Kết nối hết thời gian"
 
 msgctxt "HttpError|"
 msgid "SSL/TLS handshake failed"
@@ -146,7 +146,7 @@ msgstr "Yêu cầu tồi"
 
 msgctxt "HttpError|"
 msgid "Unauthorized"
-msgstr "Không được phép"
+msgstr "Không được xác thực"
 
 msgctxt "HttpError|"
 msgid "Payment Required"
@@ -166,7 +166,7 @@ msgstr "Phương pháp không được phép"
 
 msgctxt "HttpError|"
 msgid "Not Acceptable"
-msgstr "Không thể chấp nhận"
+msgstr "Không được chấp nhận"
 
 msgctxt "HttpError|"
 msgid "Proxy Authentication Required"
@@ -270,7 +270,7 @@ msgstr "Thử lại với"
 
 msgctxt "HttpError|"
 msgid "Blocked by Windows Parental Controls"
-msgstr "Chặn bằng Windows Parental Controls"
+msgstr "Bị chặn bởi Windows Parental Controls"
 
 msgctxt "HttpError|"
 msgid "Unavailable For Legal Reasons"
@@ -290,15 +290,15 @@ msgstr "Không Cert"
 
 msgctxt "HttpError|"
 msgid "HTTP to HTTPS"
-msgstr "HTTP tới HTTPS"
+msgstr "HTTP thành HTTPS"
 
 msgctxt "HttpError|"
 msgid "Token expired/invalid"
-msgstr "Dấu hiệu hết hạn / không hợp lệ"
+msgstr "Token hết hạn / không hợp lệ"
 
 msgctxt "HttpError|"
 msgid "Client Closed Request"
-msgstr "Khách hàng yêu cầu đóng"
+msgstr "Máy con đã đóng yêu cầu"
 
 msgctxt "HttpError|"
 msgid "Internal Server Error"
@@ -318,11 +318,11 @@ msgstr "Dịch vụ không sẵn có"
 
 msgctxt "HttpError|"
 msgid "Gateway Timeout"
-msgstr "Cổng hết thời gian"
+msgstr "Hết thời gian Gateway"
 
 msgctxt "HttpError|"
 msgid "HTTP Version Not Supported"
-msgstr "Không hỗ trợ phiên bản HTTP"
+msgstr "Phiên bản HTTP không được hỗ trợ"
 
 msgctxt "HttpError|"
 msgid "Variant Also Negotiates"
@@ -330,7 +330,7 @@ msgstr "Biến thể cũng đàm phán"
 
 msgctxt "HttpError|"
 msgid "Insufficient Storage"
-msgstr "Không đủ bộ nhớ"
+msgstr "Không đủ không gian lưu trữ"
 
 msgctxt "HttpError|"
 msgid "Loop Detected"
@@ -363,7 +363,7 @@ msgstr "Số lượng kết nối tối đa là %1"
 
 msgctxt "HttpFileDownload|"
 msgid "unlimited"
-msgstr "vô hạn"
+msgstr "Không giới hạn"
 
 msgctxt "HttpFileDownload|"
 msgid "Download speed is unlimited"
@@ -393,7 +393,7 @@ msgstr "Tạm dừng tải xuống"
 
 msgctxt "HttpFileDownload|"
 msgid "Failed to resume as URL changed"
-msgstr "Không thể tiếp tục URL đã thay đổi"
+msgstr "Không thể tiếp tục vì URL đã thay đổi"
 
 #, qt-format
 msgctxt "HttpFileDownload|"
@@ -403,7 +403,7 @@ msgstr "Di chuyển tệp tin tới %1"
 #, qt-format
 msgctxt "HttpFileDownload|"
 msgid "File \"%1\" exists. Saving as %2"
-msgstr "Tệp tin \"%1\" tồn tại. Tiết kiệm như %2"
+msgstr "Tệp tin \"%1\" tồn tại. Lưu lại với %2"
 
 msgctxt "HttpFileDownload|"
 msgid "Restarting download"
@@ -421,12 +421,12 @@ msgstr "Tệp tin được đổi tên thành %1"
 #, qt-format
 msgctxt "HttpFileDownload|"
 msgid "Reusing connection #%1"
-msgstr ""
+msgstr "Sử dụng lại kết nối #%1"
 
 #, qt-format
 msgctxt "HttpFileDownload|"
 msgid "Opening connection #%1"
-msgstr "Mở kết nối  #%1"
+msgstr "Mở kết nối #%1"
 
 #, qt-format
 msgctxt "HttpFileDownload|"
@@ -435,7 +435,7 @@ msgstr "#%1 đã đóng"
 
 msgctxt "HttpFileDownload|"
 msgid "Failed to complete the download"
-msgstr ""
+msgstr "Không thể hoàn thành tải xuống"
 
 msgctxt "HttpFileDownload|"
 msgid "Opening file on disk..."
@@ -455,11 +455,11 @@ msgstr "Loại bỏ phần mở rộng tệp tin tạm thời"
 
 msgctxt "HttpFileDownload|"
 msgid "Preallocating disk space for download"
-msgstr "Đặt trước không gian đĩa để tải xuống"
+msgstr "Cấp phát trước không gian đĩa để tải xuống"
 
 msgctxt "HttpFileDownload|"
 msgid "Unexpected error"
-msgstr ""
+msgstr "Lỗi không mong muốn"
 
 msgctxt "HttpFileDownload|"
 msgid "File changed on remote server"
@@ -468,7 +468,7 @@ msgstr "Tệp tin đã được thay đổi trên máy chủ từ xa"
 #, qt-format
 msgctxt "HttpFileDownload|"
 msgid "Couldn't reuse connection #%1, closing"
-msgstr ""
+msgstr "Không thể tái sử dụng kết nối #%1, đang đóng"
 
 msgctxt "HttpFileDownload|"
 msgid "Failed writing received data to file"
@@ -477,7 +477,7 @@ msgstr "Không thể ghi dữ liệu vào tệp"
 #, qt-format
 msgctxt "HttpFileDownload|"
 msgid "#%1 receiving data"
-msgstr "#%1 nhận dữ liệu"
+msgstr "#%1 đang nhận dữ liệu"
 
 #, qt-format
 msgctxt "HttpFileDownload|"
@@ -497,7 +497,7 @@ msgstr "Chuyển hướng tới %1"
 #, qt-format
 msgctxt "HttpFileDownload|"
 msgid "#%1: server ignored partial content request"
-msgstr "#%1: yêu cầu nội dung một phần được bỏ qua của máy chủ"
+msgstr "#%1: máy chủ từ chối một phần nội dung yêu cầu"
 
 #, qt-format
 msgctxt "HttpFileDownload|"
@@ -541,11 +541,11 @@ msgstr "Đã hủy bỏ sự phân bổ trước"
 
 msgctxt "HttpFileDownload|"
 msgid "Preallocating queued"
-msgstr "Đặt trước trong hàng đợi"
+msgstr "Phân bổ trước đã trong hàng đợi"
 
 msgctxt "HttpFileDownload|"
 msgid "Preallocating started"
-msgstr "Bắt đầu đặt trước"
+msgstr "Phân bổ trước đã bắt đầu"
 
 msgctxt "MacMainMenu|"
 msgid "Add Download from URL..."
@@ -578,15 +578,15 @@ msgstr "Kiểm tra cập nhật..."
 
 msgctxt "MacMainMenu|"
 msgid "Start Selected"
-msgstr "Bắt đầu được chọn"
+msgstr "Bắt đầu mục đã chọn"
 
 msgctxt "MacMainMenu|"
 msgid "Pause Selected"
-msgstr "Tạm dừng đã chọn"
+msgstr "Tạm dừng mục đã chọn"
 
 msgctxt "MacMainMenu|"
 msgid "Restart Selected"
-msgstr "Khởi động lại đã chọn"
+msgstr "Khởi động lại mục đã chọn"
 
 msgctxt "MacMainMenu|"
 msgid "Contact Support"
@@ -626,7 +626,7 @@ msgstr "Cửa sổ"
 
 msgctxt "QObject|"
 msgid "Minimize"
-msgstr "Giảm thiểu"
+msgstr "Thu nhỏ"
 
 msgctxt "QObject|"
 msgid "Zoom"
@@ -634,11 +634,11 @@ msgstr "Thu phóng"
 
 msgctxt "QObject|"
 msgid "Enter Full Screen"
-msgstr "Vào toàn màn hình"
+msgstr "Vào chế độ toàn màn hình"
 
 msgctxt "QObject|"
 msgid "Bring All to Front"
-msgstr "Mang tất cả lên Font"
+msgstr "Mang tất cả lên trước"
 
 msgctxt "QObject|"
 msgid "Contact Support"
@@ -712,27 +712,27 @@ msgstr "Thiếu tệp tin"
 
 msgctxt "QObject|"
 msgid "Confirm"
-msgstr ""
+msgstr "Xác nhận"
 
 msgctxt "QObject|"
 msgid "Attention! "
-msgstr ""
+msgstr "Chú ý"
 
 msgctxt "QObject|"
 msgid "Your computer will be put to Sleep mode."
-msgstr ""
+msgstr "Máy tính sẽ được đặt vào chế độ Ngủ"
 
 msgctxt "QObject|"
 msgid "Your computer will be hibernated."
-msgstr ""
+msgstr "Máy tính sẽ được đặt vào chế độ ngủ đông"
 
 msgctxt "QObject|"
 msgid "Your computer will be shut down."
-msgstr ""
+msgstr "Máy tính sẽ được tắt"
 
 msgctxt "QObject|"
 msgid "Incorrect login or password"
-msgstr ""
+msgstr "Login hoặc mật khẩu không đúng"
 
 msgctxt "RPCLocalization|"
 msgid "locale"
@@ -806,7 +806,7 @@ msgstr "Hiển thị trong thư mục"
 
 msgctxt "RPCLocalization|"
 msgid "Reveal in Finder"
-msgstr "Tiết lộ trong tìm kiếm"
+msgstr "Xem trong Finder"
 
 msgctxt "RPCLocalization|"
 msgid "Pause"
@@ -854,11 +854,11 @@ msgstr "Tốc độ tải xuống:"
 
 msgctxt "RPCLocalization|"
 msgid "Seeds:"
-msgstr "Tốc độ:"
+msgstr "Nguồn:"
 
 msgctxt "RPCLocalization|"
 msgid "Domain:"
-msgstr "Miền:"
+msgstr "Tên miền:"
 
 msgctxt "RPCLocalization|"
 msgid "Uploaded:"
@@ -890,7 +890,7 @@ msgstr "IP"
 
 msgctxt "RPCLocalization|"
 msgid "Client"
-msgstr "Khách hàng"
+msgstr "Máy con"
 
 msgctxt "RPCLocalization|"
 msgid "Flags"
@@ -983,7 +983,7 @@ msgstr "Áp dụng"
 
 msgctxt "RPCLocalization|"
 msgid "Traffic limits"
-msgstr ""
+msgstr "Giới hạn lưu lượng"
 
 msgctxt "RPCLocalization|"
 msgid "Browser integration"
@@ -1015,7 +1015,7 @@ msgstr "Tải xuống"
 
 msgctxt "RPCLocalization|"
 msgid "Download anyway"
-msgstr "Tải xuống bất chấp"
+msgstr "Tiếp tục tải xuống"
 
 msgctxt "RPCLocalization|"
 msgid "Add"
@@ -1075,7 +1075,7 @@ msgstr "Không có kết quả được gắn thẻ"
 
 msgctxt "RPCLocalization|"
 msgid "found"
-msgstr "tìm"
+msgstr "đã tìm thấy"
 
 msgctxt "RPCLocalization|"
 msgid "Show all"
@@ -1201,11 +1201,11 @@ msgstr "Về Free Download Manager"
 
 msgctxt "RPCLocalization|"
 msgid "Quit"
-msgstr "Thoát khỏi"
+msgstr "Thoát"
 
 msgctxt "RPCLocalization|"
 msgid "Exit"
-msgstr "Lối thoát"
+msgstr "Thoát ra"
 
 msgctxt "RPCLocalization|"
 msgid "Vote for new features"
